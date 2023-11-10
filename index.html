@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+    <form>
+        <h2>Registro de Datos</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ejemplo: Henry Anderson" required>
+
+        <label for="identidad">Identidad:</label>
+        <input type="text" id="identidad" placeholder="Ejemplo: 1234567891234" required>
+
+        <button type="button" onclick="validarDatos()">Registrar</button>
+    </form>
+
+    <table id="registrosTable"></table>
+
+    <br>
+    
+
+    <label for="clave">Clave:</label>
+    <input type="password" id="clave" placeholder="Ingrese la clave">
+    <button type="button" onclick="limpiarVehiculos()">Limpiar Vehículos</button>
+
+
+
+
+
+  <script src="main.js"></script>  
+</body>
+</html>
